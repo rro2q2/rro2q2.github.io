@@ -1,6 +1,11 @@
 ﻿/* Place Your Custom Styles Here */
 
 /* Projects */
+
+.pc-margin {
+    margin-bottom: 30px;
+}
+
 .pc-height {
     height: 25em;
 }
@@ -8,28 +13,16 @@
 .pc-text {
     text-align: center;
     font-size: 20px;
-    margin-left: 100%;
+    float: right;
 }
 
-.pc-line-ht {
-    line-height: 40pt;
+.pc-btn {
+    display: inline-block;
+    margin: auto 20% auto 20%;
 }
 
-.pc-rf-wedge {
-    margin: auto 10% auto 10%;
+.pc-btn-text {
+    margin-left: 15px;
+    font-family: "Montserrat", Helvetica, sans-serif;
 }
 
-.rf-row-align {
-    align-content: center;
-}
-
-.rf-row {
-    display: flex;
-    flex-direction: row;
-    
-}
-
-.rf-col {
-    display: flex;
-    flex-direction: column;
-}
