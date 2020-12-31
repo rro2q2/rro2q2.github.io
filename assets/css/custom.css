@@ -1,6 +1,8 @@
 ﻿/* Place Your Custom Styles Here */
 
-/* Projects */
+/* Color Scheme */
+.bg-main-clr { background-color: rgba(153, 166, 202, 0.603) !important; }
+.text-main-clr { color: rgba(153, 166, 202, 0.603) !important; } 
 
 .pc-margin {
     margin-bottom: 30px;
@@ -25,4 +27,76 @@
     margin-left: 15px;
     font-family: "Montserrat", Helvetica, sans-serif;
 }
+
+#more-btn {
+    margin-top: 10px;
+}
+
+#more-btn:hover {
+    color: #8299b3 !important;
+}
+
+#more-cards {
+    display: none;
+    width: 100%;
+}
+
+.we-container {
+    width: 100%;
+    display: block;
+    align-items: center;
+}
+
+.we-item {
+    width: 100%;
+    display: flex;
+}
+
+.item-card {
+    margin: auto 0px auto;
+}
+
+.we-container {
+    display: block;
+    width: 100%;
+    
+}
+
+.we-meta-content {
+    position: relative;
+    display: flex;
+}
+
+/* Label  */
+.content-lbl {
+    font-weight: 600;
+    margin-left: 10px;
+    height: 100%;
+}
+
+.lbl-padding { padding: 0.25rem; }
+.lbl-radius { border-radius: 0.25rem; }
+.lbl-shadow { box-shadow: 1px 1px 1px 1px #414455; }
+
+/* Label Colors */
+.full-time-clr { background: radial-gradient(rgb(156, 48, 139), rgb(109, 34, 98)); }
+.part-time-clr { background: radial-gradient(rgb(48, 107, 156), rgb(33, 76, 110)); }
+.cur-clr { background: radial-gradient(rgb(43, 151, 70), rgb(30, 112, 50)); }
+.research-clr { background: radial-gradient(rgb(189, 59, 65), rgb(124, 38, 42)); }
+.intern-clr { background: radial-gradient(rgb(235, 200, 43), rgb(194, 164, 33)); }
+
+.more-info { position: relative; }
+
+.info-btn {
+    margin: auto 35% auto 35%;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+    max-height: 100%;
+}
+
+.info-color { background-color:#8299b3; }
+
+
+.margin-btm-lg { margin-bottom: 2rem; }
 

@@ -606,7 +606,7 @@ License: https://themeforest.net/licenses/standard
     personite_backToTop();
     personite_layoutResize();
     personite_backgrounds();
-    personite_masonryLayout();
+    //personite_masonryLayout();
     personite_lightbox();
     personite_countdown();
     personite_subscribeForm();
